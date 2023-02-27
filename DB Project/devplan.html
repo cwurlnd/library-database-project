@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Development Plan</title>
+</head>
+
+<body>
+	<h3>Relational Model</h3>
+		<ul>
+			<li>People(<u>name</u>, phone, address)</li>
+			<li>Patrons(<u>name</u>, phone, address, card_id, checked_out, fees)</li>
+			<li>Librarians(<u>name</u>, phone, address, employee_id, title, shift, manager)</li>
+			<li>Books(<u>ISBN</u>, title, author, publisher, location, genre, pages, status)</li>
+			<li>Check_Out(<u>name</u>, <u>ISBN</u>, date, time)</li>
+		</ul>
+
+	<h3>Our database</h3>
+	<p>We plan to use MySQL and accessing it via PHP.</p>
+
+	<h3>Our data</h3>
+	<p>Our main data source is ISBNdb, to provide us with background information on each book we need. As for the books at Hesburgh Library specifically, we will likely use OneSearch unless we can obtain a raw database otherwise.</p>
+
+	<h3>Project workflow</h3>
+	<p>We plan to have Sam do the webscraping, while Charles "cleans" the data for usage
+		 Corey and Jose will focus on the HTML and front-end side. However, these divisions are not clear	cut as they will depend on the workload of each section as we begin.</p>
+	<div></div>
+	<p>Our general timeline is to complete the web scraping for the Hesburgh dataset of books, including the basic functionalities, by Nov 2. After this, our focus will be on combining and expanding this data with data from ISBNdb and other sources to enhance our project's capabilities.</p>
+</body>
+
+</html>
