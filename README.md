@@ -2,7 +2,7 @@
 
 This is a library databse project that I worked on in the Fall 2022 semester. 
 The website is built using PHP, HTML, CSS, Bootstrap, and MySQL. 
-It contains many various features:
+It contains many various features
 - Adding/removing/editing books
 - Library Checkouts
 - Book Pagination
