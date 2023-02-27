@@ -10,4 +10,4 @@ It contains many various features:
 - and much more!
 
 Here are some screenshots of the project:
-!(https://user-images.githubusercontent.com/69475242/221616485-5edadf22-4b48-4dda-a7f7-7a3cba45862b.png)
+![Test](https://user-images.githubusercontent.com/69475242/221616485-5edadf22-4b48-4dda-a7f7-7a3cba45862b.png "Title")
